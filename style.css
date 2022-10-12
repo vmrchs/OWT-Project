@@ -38,3 +38,16 @@ html{
 .newslettercontainer {}
 
 footer {}
+
+@media(max-width:550px) {
+    #navBar ul{
+        margin-left:2rem;
+        margin-right:2rem;
+        color:var(--colorTwo);
+        display: flex;
+        justify-content: space-between;
+        list-style:none; 
+        font-weight: 700;
+        font-size:10px;
+    }
+}
