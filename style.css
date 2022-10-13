@@ -13,8 +13,13 @@
 html{
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+    color:var(--colorTwo);
+    cursor:pointer;
+}
 #navBar{
-    background-color:var(--colorOne);
+   margin-top:2rem;
 }
 
 #navBar ul{
@@ -27,8 +32,21 @@ html{
     font-weight: 700;
 }
 
-.bannerContainer {}
-
+.sectionOneContainer {
+    text-align:center;
+}
+.bannerContainer{
+    position: absolute;
+}
+.lojaPhoto{
+    margin-top:-2rem;
+    width:100vmax;
+    
+}
+.navBarContainer{
+    
+    position: relative;
+}
 .instagramContainer {}
 
 .portfolio {}
