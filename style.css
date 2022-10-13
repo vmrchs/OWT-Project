@@ -31,7 +31,11 @@ a{
     list-style:none; 
     font-weight: 700;
 }
-
+#navBar li:hover{
+    background-color:rgba(128, 128, 128, 0.5);
+    padding:2px;
+    border-radius: 10px;
+}
 .sectionOneContainer {
     text-align:center;
 }
@@ -47,15 +51,32 @@ a{
     
     position: relative;
 }
-.instagramContainer {}
+.lettersContainer{
+    position:relative;
+    margin-top:10rem;
+    opacity:40%;
+    color:var(--colorTwo);
+    font-size: 30vw;
+    font-weight: 700;
+}
+.instagramContainer {
+    position: relative;
+    font-size: 20px;
+   
+}
 
 .portfolio {}
 
 .mapContainer {}
 
-.newslettercontainer {}
+.newslettercontainer {
+    position: relative;
+}
 
-footer {}
+footer {
+    position:relative;
+    color: var(--colorTwo);
+}
 
 @media(max-width:550px) {
     #navBar ul{
