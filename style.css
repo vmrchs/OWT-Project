@@ -38,7 +38,7 @@ body{
   }
   
   .parallax-item:first-child {
-    background-image: url("./img/lojaFrente.jpeg");
+    background: url("./img/lojaFrente.jpeg");
     background-size: cover;
   }
   
@@ -47,10 +47,10 @@ body{
   }
   
   .parallax-item:nth-child(3) {
-    background: url("https://images.unsplash.com/photo-1663183539627-adbe2c8ef43d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjM5Mzk5ODc&ixlib=rb-1.2.1&q=80");
+    background: url("./img/tattooBolo.jpeg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Parallax Effect for DIV 3 */
+    /* background-attachment: fixed; Parallax Effect for DIV 3 */
     min-height: 600px;
   }
   
