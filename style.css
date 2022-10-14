@@ -10,9 +10,60 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
     font-family: 'Montserrat', sans-serif;
 }
+
+  .parallax-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .parallax-item h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .parallax-item:first-child {
+    background: url("./img/lojaFrente.jpeg");
+    background-size: cover;
+  }
+  
+  .parallax-item:nth-child(2) {
+    background: var(--colorOne);
+  }
+  
+  .parallax-item:nth-child(3) {
+    background: url("./img/tattooBolo.jpeg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; Parallax Effect for DIV 3 */
+    min-height: 600px;
+  }
+  
+  .parallax-item:nth-child(4) {
+    background: #1565c0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .parallax-item h2 {
+      font-size: 1.5rem;
+    }
+  }
+
 a{
     text-decoration: none;
     color:var(--colorTwo);
@@ -23,6 +74,9 @@ a{
 }
 
 #navBar ul{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
     margin-left:2rem;
     margin-right:2rem;
     color:var(--colorTwo);
@@ -30,6 +84,7 @@ a{
     justify-content: space-between;
     list-style:none; 
     font-weight: 700;
+    /* position: fixed; */
 }
 #navBar li:hover{
     background-color:rgba(128, 128, 128, 0.5);
