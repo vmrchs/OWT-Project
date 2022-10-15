@@ -9,25 +9,26 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <main>
-      <section class="sectionOneContainer">
-        <div id="parallax" class="parallax-item bannerContainer">
-          <img class="lojaPhoto" src="./img/lojaFrente.jpeg" alt="loja" />
-        </div>
-        <div class="navBarContainer">
-          <nav id="navBar">
-            <ul>
-              <li class="navAbout"><a href="#">SOBRE NÓS</a></li>
-              <li class="navTattooArtists"><a href="#">TATUADORES</a></li>
-              <li class="navLocation"><a href="#">LOCALIZAÇÃO</a></li>
-              <li class="navNewsletter"><a href="#">NEWSLETTER</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="parallax-item lettersContainer">OWT</div>
+    <header>
+      <div id="navBarContainer">
+        <h1>OLD WIND TATTOO</h1>
+        <nav id="navBar">
+          <ul>
+            <li class="navAbout"><a href="#">SOBRE NÓS</a></li>
+            <li class="navTattooArtists"><a href="#">TATUADORES</a></li>
+            <li class="navLocation"><a href="#">LOCALIZAÇÃO</a></li>
+            <li class="navNewsletter"><a href="#">NEWSLETTER</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="">
+      <section class="bannerContainer">
+        <div class="lettersContainer">OWT</div>
       </section>
 
-      <section class="parallax-item instagramContainer">
+      <section class="instagramContainer">
         <div id="instagram">
           <div id="zk" class="portfolio">ZK</div>
           <div id="ninja" class="portfolio">NINJA</div>
@@ -35,24 +36,25 @@
         </div>
       </section>
 
-      <div class="parallax-item mapContainer">
-        <section id="map"></section>
-      </div>
-      <div class="parallax-item newsletterContainer">
-        <section id="newsletter">
-          <form action="submit">
-            <input
-              class="input"
-              type="email"
-              placeholder="Receba nossa newsletter."
-            />
-          </form>
-        </section>
-      </div>
+      <section class="mapContainer">
+        <div id="map"></div>
+      </section>
+
+      <section class="newsletterContainer">
+        <form action="submit">
+          <input
+            class="input"
+            type="email"
+            placeholder="Receba nossa newsletter."
+          />
+        </form>
+      </section>
     </main>
+
     <footer>
       <p>Copyright 2022 © Todos os direitos reservados.</p>
     </footer>
+
     <script src="./index.js"></script>
   </body>
 </html>
