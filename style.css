@@ -18,6 +18,9 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
   }
 
 body{
@@ -80,14 +83,16 @@ header nav ul li {
     background: url("./img/lojaFrente.jpeg");
     background-size: cover;
     padding-top: 2rem;
+    height: 100vh;
   }
   
 .lettersContainer{
   display: flex;
+  padding: 1em;
   position:relative;
   opacity:40%;
   color:var(--colorTwo);
-  font-size: 30vw;
+  font-size: 20vw;
   font-weight: 700;
   align-content: center;
   justify-content: center;
@@ -97,7 +102,7 @@ header nav ul li {
   font-size: 20px;
   background: var(--colorOne);
   color: var(--colorTwo);
- 
+  height: 100vh;
 }
 
 .portfolio {}
@@ -108,12 +113,13 @@ header nav ul li {
   background-position: center;
   /* background-attachment: fixed; Parallax Effect for DIV 3 */
   min-height: 600px;
-  height: 100%;
+  height: 100vh;
 }
 
 .newslettercontainer {
   position: relative;
   background: #1565c0;
+  height: 100vh;
 }
 
 .newslettercontainer > form > input {
