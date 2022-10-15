@@ -30,50 +30,67 @@ body-webkit-scrollbar {
   display: none;
 }
 
-#navBarContainer{
-  overflow: hidden;
-  position: fixed;
-  top: 0;
+header {
   width: 100%;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  background-color: rgba(255, 255, 255, 0.1); /* White background with little opacity */
 }
 
-#navBar{
-    display: flex;
-    float: left;
-    /* margin-top:2rem; */
+header nav {
+  margin: 20px;
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 2;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.33em;
+  font-weight: 900;
+  position: fixed;
+  align-content: center;
+  width: 100%;
+  margin: 20px;
+  margin-left:2rem;
+  margin-right:2rem;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ nav ul li a {
+  color:var(--colorFive);
  }
- 
- #navBar ul{
-    display: flex;
-     margin: 20px;
-     padding: 20px;
-     width: 100vw;
-     color:var(--colorTwo);
-     justify-content: space-around;
-     list-style:none; 
-     font-weight: 700;
-     position: fixed;
+
+ nav li a:hover {
+    background-color:rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
  }
- #navBar li:hover{
-     background-color:rgba(128, 128, 128, 0.5);
-     padding:2px;
-     border-radius: 10px;
+
+ main {
+  display: flex;
+  flex-direction: column;
  }
   
-  .bannerContainer {
+.bannerContainer {
     background: url("./img/lojaFrente.jpeg");
     background-size: cover;
+    padding-top: 2rem;
   }
   
 .lettersContainer{
+  display: flex;
   position:relative;
-  margin-top:10rem;
   opacity:40%;
   color:var(--colorTwo);
   font-size: 30vw;
   font-weight: 700;
+  align-content: center;
+  justify-content: center;
 }
 .instagramContainer {
   position: relative;
