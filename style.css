@@ -69,6 +69,7 @@ a{
     color:var(--colorTwo);
     cursor:pointer;
 }
+
 #navBar{
    margin-top:2rem;
 }
@@ -86,26 +87,31 @@ a{
     font-weight: 700;
     /* position: fixed; */
 }
+
 #navBar li:hover{
     background-color:rgba(128, 128, 128, 0.5);
     padding:2px;
     border-radius: 10px;
 }
+
 .sectionOneContainer {
     text-align:center;
 }
+
 .bannerContainer{
     position: absolute;
 }
+
 .lojaPhoto{
     margin-top:-2rem;
     width:100vmax;
     
 }
+
 .navBarContainer{
-    
     position: relative;
 }
+
 .lettersContainer{
     position:relative;
     margin-top:10rem;
@@ -114,6 +120,7 @@ a{
     font-size: 30vw;
     font-weight: 700;
 }
+
 .instagramContainer {
     position: relative;
     font-size: 20px;
