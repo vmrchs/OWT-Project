@@ -9,25 +9,51 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <main>
-      <section class="sectionOneContainer">
-        <div id="parallax" class="parallax-item bannerContainer">
-          <img class="lojaPhoto" src="./img/lojaFrente.jpeg" alt="loja" />
-        </div>
-        <div class="navBarContainer">
-          <nav id="navBar">
-            <ul>
-              <li class="navAbout"><a href="#">SOBRE NÓS</a></li>
-              <li class="navTattooArtists"><a href="#">TATUADORES</a></li>
-              <li class="navLocation"><a href="#">LOCALIZAÇÃO</a></li>
-              <li class="navNewsletter"><a href="#">NEWSLETTER</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="parallax-item lettersContainer">OWT</div>
-      </section>
+    <header>
+      <nav>
+        <ul>
+          <li class="navAbout"><a href="#">SOBRE NÓS</a></li>
+          <li class="navTattooArtists"><a href="#instagram">TATUADORES</a></li>
+          <li class="navLocation"><a href="#map">LOCALIZAÇÃO</a></li>
+          <li class="navNewsletter"><a href="#newsletter">NEWSLETTER</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <section class="parallax-item instagramContainer">
+    <main class="1">
+      <section class="bannerContainer parallax">
+        <div class="lettersContainer parallax-inner">
+          <br />
+          <h1>OWT</h1>
+          <br />
+        </div>
+      </section>
+      <h3>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+        provident est eum blanditiis assumenda saepe sed consequatur iusto
+        commodi perspiciatis? Repellendus dicta itaque reprehenderit.
+        Distinctio, neque dolore? Similique, ipsam. Odit, minus nostrum possimus
+        porro illum iste! Iure alias placeat, unde incidunt consequuntur ratione
+        veritatis non quis repudiandae dolore a voluptatibus modi dolorem,
+        consectetur deserunt temporibus eligendi ea beatae nesciunt distinctio!
+        Fugiat eum fuga esse officia, error nobis eligendi porro, unde debitis
+        consequuntur omnis ratione minus deleniti! Vel, vero, suscipit et
+        corrupti aperiam repellat repellendus aspernatur, harum non deleniti
+        amet. Fugit, deleniti unde vitae aperiam non perferendis! Sint porro
+        accusantium officia, voluptates repellat asperiores facere deserunt
+        nesciunt, illum excepturi iste velit quasi molestias libero corporis
+        voluptas magni harum cum et vitae dolorum voluptate? Neque sequi
+        eligendi minus molestiae quam aperiam non. Omnis minus deserunt
+        voluptate labore pariatur maiores, vero assumenda, cupiditate tenetur
+        distinctio fuga voluptatum commodi quidem earum? Quam nesciunt
+        voluptatibus maiores, eius blanditiis, tenetur fugit at totam hic
+        numquam culpa autem officia modi animi quo nihil. Beatae minus commodi
+        quos repellendus culpa sunt suscipit voluptatem cum quibusdam a iusto
+        accusamus iste nemo quae, aut voluptates vitae sed minima, asperiores in
+        itaque laborum amet cumque! Natus mollitia in non quidem quo!
+      </h3>
+
+      <section class="instagramContainer">
         <div id="instagram">
           <div id="zk" class="portfolio">ZK</div>
           <div id="ninja" class="portfolio">NINJA</div>
@@ -35,11 +61,12 @@
         </div>
       </section>
 
-      <div class="parallax-item mapContainer">
-        <section id="map"></section>
-      </div>
-      <div class="parallax-item newsletterContainer">
-        <section id="newsletter">
+      <section class="mapContainer">
+        <div id="map"></div>
+      </section>
+
+      <section class="newsletterContainer">
+        <div id="newsletter">
           <form action="submit">
             <input
               class="input"
@@ -47,12 +74,14 @@
               placeholder="Receba nossa newsletter."
             />
           </form>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
+
     <footer>
       <p>Copyright 2022 © Todos os direitos reservados.</p>
     </footer>
+
     <script src="./index.js"></script>
   </body>
 </html>
