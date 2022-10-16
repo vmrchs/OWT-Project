@@ -118,8 +118,15 @@ header nav ul li {
 
 .newslettercontainer {
   position: relative;
-  background: #1565c0;
-  height: 100vh;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900vh;
+  background-color: var(--colorFive);
+  color: var(--colorTwo);
 }
 
 .newslettercontainer > form > input {
@@ -127,8 +134,13 @@ header nav ul li {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position:relative;
+  background-color: var(--colorOne);
   color: var(--colorTwo);
+  height: 10vh;
 }
 
 a{
