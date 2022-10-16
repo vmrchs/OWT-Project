@@ -1,0 +1,119 @@
+:root {
+    --colorOne:#53a5a8;
+    --colorTwo:white;
+    --colorThree: #f7ea5c;
+    --colorFour: #e9ba54;
+    --colorFive: #ea3137;
+}
+
+.mainHeader{
+    position: absolute;
+   height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    padding: 0 0.4rem;
+  }
+  
+ 
+  
+  .mainNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    margin-left: -100%;
+    transition: all .2s linear;
+    background-color: none;
+    z-index: 100;
+  }
+  
+  .mainNav.show{
+    margin-left: 0;
+  }
+  
+  .navLinks{
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+  
+    
+  }
+  
+
+  
+  .linkItem::after {
+    position: absolute;
+  }
+  
+  .linkItem:hover::after {
+    width: 100%;
+  }
+  
+  .buttonMenu{
+    z-index: 200;
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .buttonMenu span{
+    width: 37px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: var(--colorFive);
+    border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition: all .2s linear;
+  }
+  
+  .buttonMenu.close span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, 0px);
+    background: #ffffff;
+  }
+  
+  .buttonMenu.close span:nth-child(2){
+    transform: rotate(-45deg) translate(-9.5px, 5px);
+  }
+  
+  .buttonMenu.close span:nth-child(3){
+    display: none;
+  }
+  
+  
+  @media screen and (min-width:768px) {
+    .buttonMenu{
+      display: none;
+    }
+  
+    .navLinks{
+    background-color: rgba(255, 68, 0, 0.479);
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height: 10vw;
+   margin-left:0;
+    
+    }
+  
+    .mainNav{
+      position: static;
+      margin-left: 0;
+      flex-basis: 70%;
+      height: 100%;
+    }
+  
+    
+  }
