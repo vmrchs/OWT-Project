@@ -110,6 +110,9 @@
    margin-left:0;
     
     }
+    .instaContainer{
+      display: none;
+    }
   
     .mainNav{
       position: static;
