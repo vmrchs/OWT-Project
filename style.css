@@ -93,7 +93,22 @@ header nav ul li {
     background: url("./img/lojaFrente.jpeg");
     background-size: cover;
     padding-top: 2rem;
-    height: 100vh;
+    height: 150vh;
+  }
+
+  .lettersContainer{
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  .addressContainer{
+    text-align:center;
+  }
+  .addressContainer h1{
+    font-size:78px;
+  }
+  .addressContainer p{
+    margin-top:5%;
+    margin-bottom:5%;
   }
 
 .lettersContainer{
