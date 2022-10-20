@@ -65,6 +65,7 @@ header nav ul li {
 }
 
  nav ul li a {
+  
   color:var(--colorFive);
  }
 
@@ -77,10 +78,13 @@ header nav ul li {
    align-items:center;
    margin-top: 10%;
  }
- .instaContainer{
-  
-  margin-left:70vw;
+ .instaContainer{  
   z-index: 1003;
+ }
+ .instaContainer img{
+  
+  width:30px;
+  margin-left:5%;
  }
 
 
@@ -128,7 +132,7 @@ header nav ul li {
   font-size: 20px;
   background: var(--colorOne);
   color: var(--colorTwo);
-  height: 90%;
+  height: 80vh;
   
 }
 .portfolioContainer{
@@ -168,13 +172,18 @@ header nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 900vh;
+  height: 90vh;
   background-color: var(--colorFive);
   color: var(--colorTwo);
 }
 
-.newslettercontainer > form > input {
-  width: 400px;
+ .buttonNs{
+  background-color: var(--colorFour);
+  color: var(--colorTwo);
+  font-weight:700 ;
+  padding: 10px;
+  border: none;
+  border-radius:10px;
 }
 
 footer {
