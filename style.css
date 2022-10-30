@@ -110,6 +110,26 @@ h1 {
 
 #tattooers {
     background: turquoise;
+	text-align:center;
+}
+.zk, .ninja, .felipe{
+	
+	font-size: 28px;
+}
+.zk{
+	color:white;
+}
+.zk:hover{
+	color: var(--colorFive);
+}
+.ninja{
+	color:white;
+}
+.ninja:hover{
+	color: var(--colorFour);
+}
+.felipe:hover{
+	color: green;
 }
 
 #location {
