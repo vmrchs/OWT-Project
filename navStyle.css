@@ -54,6 +54,7 @@
   }
   
   .buttonMenu{
+    margin-top:3rem;
     z-index: 200;
     width: 40px;
     height: 40px;
@@ -69,6 +70,7 @@
   .buttonMenu span{
     width: 37px;
     height: 4px;
+    
     margin-left:10%;
     margin-bottom: 5px;
     position: relative;
