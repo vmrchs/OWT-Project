@@ -99,6 +99,11 @@ h1 {
 #about {
     background: url("./img/lojaFrente.jpeg");
     background-size: cover;
+	overflow: hidden;
+}
+
+.aboutContent {
+	height: 100vh;
 }
 
 #owt {

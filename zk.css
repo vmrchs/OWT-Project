@@ -118,12 +118,19 @@ h1 {
 .tattooersContainer{
   display: flex;
   flex-direction:column;
-   text-align:center;
+	text-align:center;
 }
-.imgContainer img{
+.imgContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
   border-radius: 10px;
 }
-
+.imgContainer img{
+	padding: 2vw;
+	width: 20vw;
+  border-radius: 10px;
+}
 
 
 #location {
