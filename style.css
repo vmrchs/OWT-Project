@@ -92,18 +92,28 @@ section {
 h1 {
     font-size: 60px;
     /* background: #eee; */
+	margin-top: 5%;
     padding: 8px 24px;
     border-radius: 16px;
 }
 
 #about {
+	height: 220vh;
     background: url("./img/lojaFrente.jpeg");
     background-size: cover;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
 .aboutContent {
-	height: 100vh;
+	height: 50%;
+}
+
+.aboutContent p {
+	padding: 20em;
+	font-size: 14pt;
+	color: var(--colorTwo);
 }
 
 #owt {
@@ -151,8 +161,8 @@ h1 {
 }
 
 #location iframe {
-	border: 2px solid white;
-	border-radius: 12px;
+	border: 3px solid white;
+	border-radius: 15px;
 }
 
 #newsletter {
