@@ -97,8 +97,11 @@ h1 {
 }
 
 #about {
-    background: url("./img/lojaFrente.jpeg");
-    background-size: cover;
+    background: url("./img/profileNinja.jpeg");
+    
+    background-size:cover;
+   
+    
 }
 
 #owt {
@@ -110,33 +113,21 @@ h1 {
 
 #tattooers {
     background: turquoise;
-	text-align:center;
+	  height: auto;   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-.zk, .ninja, .felipe{
-	
-	font-size: 28px;
+.tattooersContainer{
+  display: flex;
+  flex-direction:column;
+   text-align:center;
 }
-.zk{
-	color:white;
-}
-.zk:hover{
-	color: var(--colorFive);
-}
-.ninja{
-	color:white;
-}
-.ninja:hover{
-	color: var(--colorFour);
-}
-.felipe:hover{
-	color: green;
+.imgContainer img{
+  border-radius: 10px;
 }
 
 
-#portfolioContainer {
-	display: flex;
-	flex-direction: column;
-}
 
 #location {
     height: 100vh;
@@ -297,5 +288,9 @@ footer {
         list-style:none; 
         font-weight: 700;
         font-size:10px;
+    }
+    .imgContainer img{
+      width: 70%;
+      
     }
 }
