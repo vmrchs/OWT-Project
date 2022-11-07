@@ -112,6 +112,11 @@ h1 {
     background: turquoise;
 }
 
+#portfolioContainer {
+	display: flex;
+	flex-direction: column;
+}
+
 #location {
     height: 100vh;
     background: url("./img/tattooBolo.jpeg");
