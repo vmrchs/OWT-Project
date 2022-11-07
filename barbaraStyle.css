@@ -97,7 +97,7 @@ h1 {
 }
 
 #about {
-    background: url("./img/profileFelipe.jpeg");
+    background: url("./img/profileBarbara.png");
     
     background-size:cover;
    
@@ -124,6 +124,7 @@ h1 {
    text-align:center;
 }
 .imgContainer img{
+  filter: grayscale(100%);
   border-radius: 10px;
 }
 
