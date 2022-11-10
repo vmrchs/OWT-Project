@@ -1,0 +1,62 @@
+
+.zkAbout {
+    background: url("./img/profileZk.jpeg"); 
+    background-size:cover;
+	height: 100vh;
+	background-position: center; 
+}
+
+.ninjaAbout {
+  background: url("./img/profileNinja.jpeg"); 
+  background-size:cover;
+  height: 100vh;
+  background-position: center; 
+}
+
+#owt {
+  opacity:40%;
+  color:var(--colorTwo);
+  font-size: 32vw;
+  font-weight: 700;
+}
+
+.tattooer {
+    background: turquoise;
+	  height: auto;   
+}
+.tattooersContainer{
+  display: flex;
+  flex-direction:column;
+	text-align:center;
+}
+.imgContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  border-radius: 10px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.imgContainer img {
+	margin: 2vw;
+	width: 20vw;
+	border: 3px solid white;
+  	border-radius: 15px;
+}
+
+@media(max-width:550px) {
+    #navBar ul{
+        margin-left:2rem;
+        margin-right:2rem;
+        color:var(--colorTwo);
+        display: flex;
+        justify-content: space-between;
+        list-style:none; 
+        font-weight: 700;
+        font-size:10px;
+    }
+    .imgContainer img{
+      width: 70%;
+      
+    }
+}

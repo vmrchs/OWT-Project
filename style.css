@@ -99,11 +99,14 @@ h1 {
 
 #about {
 	height: 220vh;
-    background: url("./img/lojaFrente.jpeg");
-    background-size: cover;
-	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+}
+
+.about {
+	background: url("./img/lojaFrente.jpeg");
+    background-size: cover;
+	overflow: hidden;
 }
 
 .aboutContent {
@@ -128,7 +131,6 @@ h1 {
 	text-align:center;
 }
 .zk, .ninja, .felipe{
-	
 	font-size: 28px;
 }
 .zk{
@@ -146,13 +148,10 @@ h1 {
 .felipe:hover{
 	color: green;
 }
-
-
 #portfolioContainer {
 	display: flex;
 	flex-direction: column;
 }
-
 #location {
     height: 100vh;
     background: url("./img/tattooBolo.jpeg");
@@ -313,4 +312,11 @@ footer {
         font-weight: 700;
         font-size:10px;
     }
+	
+	.imgContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 }
