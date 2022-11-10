@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="/navStyle.css" />
     <link rel="stylesheet" href="./tattooerStyle.css" />
+    <link
+      href="./node_modules/lightbox2/dist/css/lightbox.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="mainHeader">
@@ -49,18 +53,18 @@
       <section class="tattooer">
         <div class="tattooersContainer">
           <div id="" class="imgContainer">
-            <img src="./img/zk/tattoo1.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo2.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo3.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo4.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo5.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo6.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo7.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo8.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo9.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo10.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo11.png" alt="tattoo" class="zkImg" />
-            <img src="./img/zk/tattoo12.png" alt="tattoo" class="zkImg" />
+            <a href="./img/zk/tattoo1.png" class="tattoo" data-lightbox="ZK">
+              <img src="./img/zk/tattoo1.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/zk/tattoo2.png" class="tattoo" data-lightbox="ZK">
+              <img src="./img/zk/tattoo2.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/zk/tattoo3.png" class="tattoo" data-lightbox="ZK">
+              <img src="./img/zk/tattoo3.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/zk/tattoo4.png" class="tattoo" data-lightbox="ZK">
+              <img src="./img/zk/tattoo4.png" alt="" class="tattooThumbnail" />
+            </a>
           </div>
         </div>
       </section>
@@ -95,5 +99,6 @@
     </footer>
 
     <script src="./index.js"></script>
+    <script src="./node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
