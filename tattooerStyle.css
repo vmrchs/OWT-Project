@@ -1,7 +1,7 @@
 
 .zkAbout {
-    background: url("./img/profileZk.jpeg"); 
-    background-size:cover;
+  background: url("./img/profileZk.jpeg"); 
+  background-size:cover;
 	height: 100vh;
 	background-position: center; 
 }
