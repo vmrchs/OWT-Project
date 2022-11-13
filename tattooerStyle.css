@@ -12,6 +12,20 @@
   height: 100vh;
   background-position: center; 
 }
+.felipeAbout {  
+  background: url("./img/profileFelipe.jpeg"); 
+  background-size:cover;
+  height: 100vh;
+  background-position: center; 
+}
+
+
+.barbaraAbout {
+  background:url("./img/profileBarbara.png");
+  background-size: cover;
+  height: 100vh;
+  background-position:center;
+}
 
 #owt {
   opacity:40%;
