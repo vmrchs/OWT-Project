@@ -318,6 +318,14 @@ footer {
         font-weight: 700;
         font-size:10px;
     }
+	.aboutContent{
+		margin-top: -10rem;
+	}
+
+	.aboutContent p {
+	font-size: 14px;
+	
+}
 	
 	.imgContainer {
 		display: flex;
