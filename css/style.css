@@ -163,6 +163,11 @@ h1 {
 	display: flex;
 	flex-direction: column;
 }
+
+#portfolioContainer h1 {
+	margin: 2rem;
+}
+
 #embelezamento{
 	background-color:var(--colorFour);
 }
@@ -181,6 +186,7 @@ h1 {
 .embelezamentoContainer a:hover{
 	color: var(--colorFive);
 }
+
 #location {
     height: 100vh;
     background: url("../img/tattooBolo.jpeg");
