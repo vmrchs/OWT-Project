@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OWT</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="/navStyle.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navStyle.css" />
+    <link rel="stylesheet" href="./css/collapsible.css" />
+    <link rel="stylesheet" href="./css/tattooerStyle.css" />
+    <link
+      href="./node_modules/lightbox2/dist/css/lightbox.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script src="./node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
@@ -53,7 +59,7 @@
             Somos uma loja aberta a todo tipo de público e o que mais desejamos para nossos clientes é trabalhar com 100% de profissionalismo e poder ter uma interação direta com nossos clientes no momento de serem acessados ​​e tatuados.<br><br>
             Estamos localizados na Rua José do Patrocínio, 673 - Cidade Baixa, Porto Alegre - RS, 90050-002, Brasil.
             Nosso horário de atendimento é de segunda a sábado: das 10h às 19h.
-            Muito obrigado por nos visitar e lembre-se: <b>Tatuagem é para sempre!
+            Muito obrigado por nos visitar e lembre-se: <b>Tatuagem é para sempre!</b>
           </p>
         </div>
       </section>
@@ -63,14 +69,45 @@
           <h1>TATUADORES</h1>
 
           <div id="zk" class="portfolio">
-            <a href="./zk.html" class="zk">ZK</a>
+            <!-- <a href="./zk.html" class="zk">ZK</a>
           </div>
           <div id="ninja" class="portfolio">
             <a href="./ninja.html" class="ninja">NINJA</a>
           </div>
           <div id="felipe" class="portfolio">
             <a href="./felipe.html" class="felipe">FELIPE</a>
+          </div> -->
+          <button class="accordion">ZK</button>
+          <div class="panel">
+            <section class="tattooer">
+              <div class="tattooersContainer">
+                <div id="" class="imgContainer">
+                  <a href="./img/zk/tattoo1.png" class="tattoo" data-lightbox="ZK">
+                    <img src="./img/zk/tattoo1.png" alt="" class="tattooThumbnail" />
+                  </a>
+                  <a href="./img/zk/tattoo2.png" class="tattoo" data-lightbox="ZK">
+                    <img src="./img/zk/tattoo2.png" alt="" class="tattooThumbnail" />
+                  </a>
+                  <a href="./img/zk/tattoo3.png" class="tattoo" data-lightbox="ZK">
+                    <img src="./img/zk/tattoo3.png" alt="" class="tattooThumbnail" />
+                  </a>
+                  <a href="./img/zk/tattoo4.png" class="tattoo" data-lightbox="ZK">
+                    <img src="./img/zk/tattoo4.png" alt="" class="tattooThumbnail" />
+                  </a>
+                </div>
+              </div>
+            </section>
           </div>
+          
+          <button class="accordion">NINJA</button>
+          <div class="panel">
+            <p>Lorem ipsum...</p>
+          </div>
+          
+          <button class="accordion">FELIPE</button>
+          <div class="panel">
+            <p>Lorem ipsum...</p>
+          </div> 
         </div>
       </section>
 
@@ -110,6 +147,8 @@
       <p>Copyright 2022 © Todos os direitos reservados.</p>
     </footer>
 
+    <script src="./collapsible.js"></script>
     <script src="./index.js"></script>
+    <script src="./node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>

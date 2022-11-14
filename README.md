@@ -11,6 +11,7 @@ https://www.atlastattoo.com/
 * https://www.w3schools.com/howto/howto_js_sticky_header.asp 
 * https://app.sendinblue.com/account/register/
 * https://freefrontend.com/css-subscribe-forms/ - SUBSCRIBE FORM TEMPLATE
+* https://www.w3schools.com/howto/howto_js_accordion.asp - Accordion type collapsible
 
 https://devxdev.net
 https://developer.mozilla.org
@@ -18,7 +19,7 @@ https://developer.mozilla.org
 # TO DO:
 - Think about responsive design and the use of frameworks
 - If we go vanilla CSS we should think about the design for different break points
-- Integrate Parallax Scrolling
-- Create Sticky Header
-- Fix responsive navbar bugs
-- Push test
+- Fix collapsible portfolio section bugs
+- Style Embelezamento section
+- Style NavBar
+- Get definitive photos fot the website

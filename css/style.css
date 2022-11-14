@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --colorOne:#53a5a8;
+    --colorOne: turquoise
     --colorTwo:white;
     --colorThree: #f7ea5c;    
     --colorFour: #e9ba54;
@@ -101,7 +101,10 @@ h1 {
 	height: 220vh;
 	display: flex;
 	flex-direction: column;
-	background: url("./img/lojaFrente.jpeg");
+}
+
+.about {
+	background: url("../img/lojaFrente.jpeg");
     background-size: cover;
 	overflow: hidden;
 }
@@ -111,20 +114,20 @@ h1 {
 	width:auto;
 	height: auto;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-content: center;
 }
 
 .aboutContent p {
-	padding-top: 10vh;
-	padding: 3rem;
-	font-size: 13pt;
-	height: auto;
 	width: 60vw;
+	margin: auto;
+	padding: 2em;
+	font-size: 14pt;
 	color: black;
 	background-color: rgba(255, 255, 255, 0.666);
 	border: 3px solid black;
-	border-radius: 16px;
+	border-radius: 2em;
+
 }
 
 #owt {
@@ -180,7 +183,7 @@ h1 {
 }
 #location {
     height: 100vh;
-    background: url("./img/tattooBolo.jpeg");
+    background: url("../img/tattooBolo.jpeg");
     background-attachment: fixed;
     background-size: cover;
 }

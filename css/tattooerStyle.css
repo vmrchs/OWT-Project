@@ -51,6 +51,8 @@
   border-radius: 10px;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 .imgContainer img {
 	margin: 2vw;
