@@ -107,7 +107,9 @@ h1 {
 }
 
 .aboutContent {
-	height: 50%;
+	top: auto;
+	width:auto;
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -116,7 +118,7 @@ h1 {
 .aboutContent p {
 	padding-top: 10vh;
 	padding: 3rem;
-	font-size: 14pt;
+	font-size: 13pt;
 	height: auto;
 	width: 60vw;
 	color: black;
@@ -157,6 +159,24 @@ h1 {
 #portfolioContainer {
 	display: flex;
 	flex-direction: column;
+}
+#embelezamento{
+	background-color:var(--colorFour);
+}
+.embelezamentoContainer{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.embelezamentoContainer a{
+	font-size:28px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.embelezamentoContainer a:hover{
+	color: var(--colorFive);
 }
 #location {
     height: 100vh;
@@ -318,11 +338,27 @@ footer {
         font-weight: 700;
         font-size:10px;
     }
+	#portfolioContainer{
+		
+		width:95%;
+	}
+	#portfolioContainer h1{
+		
+		font-size: 39px;
+	}
+
+	.aboutContent p {
+	font-size: 12px;
+	
+}
 	
 	.imgContainer {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+	}
+	footer{
+       font-size: 13px;
 	}
 }

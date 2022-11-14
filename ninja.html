@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="/navStyle.css" />
     <link rel="stylesheet" href="./tattooerStyle.css" />
+
+    <link
+    href="./node_modules/lightbox2/dist/css/lightbox.css"
+    rel="stylesheet"
+  />
   </head>
   <body>
     <header class="mainHeader">
@@ -47,21 +52,49 @@
       </section>
 
       <section class="tattooer">
-        <div id="" class="imgContainer">
-          <img src="./img/ninja/tattoo1.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo2.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo3.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo4.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo5.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo6.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo7.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo8.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo9.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo10.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo11.png" alt="tattoo" class="ninjaImg" />
-          <img src="./img/ninja/tattoo12.png" alt="tattoo" class="ninjaImg" />
+        <div class="tattooersContainer">
+          <div id="" class="imgContainer">
+            <a href="./img/ninja/tattoo1.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo1.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo2.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo2.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo3.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo3.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo4.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo4.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo5.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo5.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo6.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo6.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo7.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo7.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo8.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo8.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo9.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo9.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo10.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo10.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo11.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo11.png" alt="" class="tattooThumbnail" />
+            </a>
+            <a href="./img/ninja/tattoo12.png" class="tattoo" data-lightbox="NINJA">
+              <img src="./img/ninja/tattoo12.png" alt="" class="tattooThumbnail" />
+            </a>                  
+          
+          </div>
         </div>
       </section>
+
 
       <section id="location">
         <iframe
@@ -92,6 +125,8 @@
       <p>Copyright 2022 © Todos os direitos reservados.</p>
     </footer>
 
+    
     <script src="./index.js"></script>
+    <script src="./node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
