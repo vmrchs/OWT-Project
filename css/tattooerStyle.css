@@ -1,9 +1,10 @@
 
 .zkAbout {
-    background: url("./img/profileZk.jpeg"); 
-    background-size:cover;
+  background: url("./img/profileZk.jpeg"); 
+  /* background-size:cover; */
 	height: 100vh;
-	background-position: center; 
+  background-position-x: center;
+	background-position-y: center; 
 }
 
 .ninjaAbout {
@@ -36,6 +37,8 @@
   border-radius: 10px;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 .imgContainer img {
 	margin: 2vw;

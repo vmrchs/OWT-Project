@@ -97,7 +97,7 @@ h1 {
     border-radius: 16px;
 }
 
-#about {
+.about {
 	height: 220vh;
 	display: flex;
 	flex-direction: column;
