@@ -141,6 +141,9 @@ h1 {
 #tattooers {
     background: turquoise;
 	text-align:center;
+	overflow: hidden;
+	min-height: 100vh;
+	height: auto;
 }
 .zk, .ninja, .felipe{
 	font-size: 28px;
@@ -171,6 +174,7 @@ h1 {
 
 #embelezamento{
 	background-color:var(--colorFour);
+	width: 100vw;
 }
 .embelezamentoContainer{
 	display: flex;
@@ -186,6 +190,21 @@ h1 {
 
 .embelezamentoContainer a:hover{
 	color: var(--colorFive);
+}
+
+#barbara {
+	background-color: var(--colorFour);
+    cursor: pointer;
+    padding: 2em;
+    width: 60%;
+    text-align: center;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    transition: 0.4s;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0.5rem;
 }
 
 #location {
