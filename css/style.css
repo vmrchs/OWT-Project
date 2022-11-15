@@ -92,9 +92,9 @@ section {
 h1 {
     font-size: 60px;
     /* background: #eee; */
-	margin-top: 5%;
-    padding: 8px 24px;
-    border-radius: 16px;
+	/* margin-top: 5%; */
+    /* padding: 8px 24px; */
+    /* border-radius: 16px; */
 }
 
 .about {
@@ -112,10 +112,11 @@ h1 {
 .aboutContent {
 	top: auto;
 	width:auto;
-	height: auto;
+	height: 50%;
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	flex-direction: column;
 }
 
 .aboutContent p {
