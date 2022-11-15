@@ -216,7 +216,7 @@ h1 {
 
 #location iframe {
 	border: 3px solid white;
-	border-radius: 15px;
+	border-radius: 2em;
 }
 
 #newsletter {
@@ -356,7 +356,7 @@ footer {
 	font-weight: 700;
   }
 
-@media(max-width:550px) {
+@media(max-width:768px) {
     #navBar ul{
         margin-left:2rem;
         margin-right:2rem;
@@ -386,6 +386,10 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+	}
+
+	#location iframe{
+		border-radius: 0;
 	}
 	footer{
        font-size: 13px;
