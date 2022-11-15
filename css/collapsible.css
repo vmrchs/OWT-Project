@@ -7,16 +7,20 @@
     text-align: center;
     border: none;
     border-radius: 2em;
+    margin: 2em;
     outline: none;
     transition: 0.4s;
     font-size: 2rem;
     font-weight: 900;
     margin: 0.5rem;
+    border: 3px solid transparent;
+
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: var(--colorFive);
+    border: 3px solid white;
+    color: white;
   }
   
   /* Style the accordion panel. Note: hidden by default */
