@@ -61,6 +61,19 @@
   border-radius: 2em;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.beautyContainer{
+  display: flex;
+  flex-direction:column;
+	text-align:center;
+}
+
 @media(max-width:550px) {
     #navBar ul{
         margin-left:2rem;
