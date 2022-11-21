@@ -141,6 +141,7 @@ h1 {
 	overflow: hidden;
 	min-height: 100vh;
 	height: auto;
+	width: auto;
 }
 .zk, .ninja, .felipe{
 	font-size: 28px;
@@ -169,6 +170,7 @@ h1 {
 #portfolioContainer h1 {
 	margin: 2rem;
 }
+
 
 #embelezamento{
 	background-color:var(--colorFour);
@@ -398,7 +400,19 @@ footer {
 		align-items: center;
 		justify-content: center;
 	}
-
+	.beautyContainer{
+		width: 95%;
+	}
+	#embelezamento h1{
+		font-size: 35px;
+	}
+	#embelezamento .imgContainer{
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		justify-content:center;
+	}
+	
 	footer{
        font-size: 13px;
 	}
