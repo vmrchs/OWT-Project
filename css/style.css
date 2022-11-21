@@ -122,6 +122,7 @@ h1 {
 	margin: auto;
 	padding: 2em;
 	font-size: 14pt;
+	font-weight: 300;
 	color: black;
 	background-color: rgba(255, 255, 255, 0.666);
 	border: 3px solid black;
