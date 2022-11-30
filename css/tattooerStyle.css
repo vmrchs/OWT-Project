@@ -1,10 +1,21 @@
 
+:root {
+  --colorOne: turquoise
+  --colorTwo:white;
+  --colorThree: #f7ea5c;    
+  --colorFour: #e9ba54;
+--colorFive: #ea3137;
+}
 .zkAbout {
   background: url("../img/profileZk.jpeg"); 
   /* background-size:cover; */
 	height: 100vh;
   background-position-x: center;
 	background-position-y: center; 
+}
+ 
+ .zkLink:hover{ 
+  color: var(--colorFive);
 }
 
 .ninjaAbout {
@@ -13,14 +24,19 @@
   height: 100vh;
   background-position: center; 
 }
+.ninjaLink:hover{
+  color: var(--colorFour);
+
+}
 .felipeAbout {  
   background: url("../img/profileFelipe.jpeg"); 
   background-size:cover;
   height: 100vh;
   background-position: center; 
 }
-
-
+.felipeLink:hover{
+  color: green;
+}
 .barbaraAbout {
   background:url("../img/profileBarbara.png");
   background-size: cover;
