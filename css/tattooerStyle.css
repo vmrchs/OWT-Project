@@ -1,6 +1,6 @@
 
 .zkAbout {
-  background: url("./img/profileZk.jpeg"); 
+  background: url("../img/profileZk.jpeg"); 
   /* background-size:cover; */
 	height: 100vh;
   background-position-x: center;
@@ -8,13 +8,13 @@
 }
 
 .ninjaAbout {
-  background: url("./img/profileNinja.jpeg"); 
+  background: url("../img/profileNinja.jpeg"); 
   background-size:cover;
   height: 100vh;
   background-position: center; 
 }
 .felipeAbout {  
-  background: url("./img/profileFelipe.jpeg"); 
+  background: url("../img/profileFelipe.jpeg"); 
   background-size:cover;
   height: 100vh;
   background-position: center; 
@@ -22,7 +22,7 @@
 
 
 .barbaraAbout {
-  background:url("./img/profileBarbara.png");
+  background:url("../img/profileBarbara.png");
   background-size: cover;
   height: 100vh;
   background-position:center;
