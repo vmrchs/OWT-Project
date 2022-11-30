@@ -17,6 +17,11 @@
  .zkLink:hover{ 
   color: var(--colorFive);
 }
+.footerZk{
+  background-color:var(--colorFive);
+  color: var(--colorTwo);
+
+}
 
 .ninjaAbout {
   background: url("../img/profileNinja.jpeg"); 
@@ -28,6 +33,10 @@
   color: var(--colorFour);
 
 }
+.footerNinja{
+  background-color: var(--colorFive);
+  color: var(--colorTwo);
+}
 .felipeAbout {  
   background: url("../img/profileFelipe.jpeg"); 
   background-size:cover;
@@ -37,11 +46,19 @@
 .felipeLink:hover{
   color: green;
 }
+.footerFelipe{
+  background-color:var(--colorFive);
+  color: var(--colorTwo);
+}
 .barbaraAbout {
   background:url("../img/profileBarbara.png");
   background-size: cover;
   height: 100vh;
   background-position:center;
+}
+.footerBarbara{
+  background-color: var(--colorFive);
+  color:var(--colorTwo);
 }
 
 #owt {
