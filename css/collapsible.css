@@ -1,8 +1,16 @@
+:root {
+  --colorOne: turquoise
+  --colorTwo:white;
+  --colorThree: #f7ea5c;    
+  --colorFour: #e9ba54;
+--colorFive: #ea3137;
+}
+ 
  /* Style the buttons that are used to open and close the accordion panel */
  .accordion {
     background-color: inherit;
     cursor: pointer;
-    padding: 2em;
+    padding: 1em;
     width: 60%;
     text-align: center;
     border: none;
@@ -19,8 +27,10 @@
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
+
     border: 3px solid white;
     color: white;
+    background-color:var(--colorFive);
   }
   
   /* Style the accordion panel. Note: hidden by default */

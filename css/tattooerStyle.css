@@ -1,31 +1,64 @@
 
+:root {
+  --colorOne: turquoise
+  --colorTwo:white;
+  --colorThree: #f7ea5c;    
+  --colorFour: #e9ba54;
+--colorFive: #ea3137;
+}
 .zkAbout {
-  background: url("./img/profileZk.jpeg"); 
+  background: url("../img/profileZk.jpeg"); 
   /* background-size:cover; */
 	height: 100vh;
   background-position-x: center;
 	background-position-y: center; 
 }
+ 
+ .zkLink:hover{ 
+  color: var(--colorFive);
+}
+.footerZk{
+  background-color:var(--colorFive);
+  color: var(--colorTwo);
+
+}
 
 .ninjaAbout {
-  background: url("./img/profileNinja.jpeg"); 
+  background: url("../img/profileNinja.jpeg"); 
   background-size:cover;
   height: 100vh;
   background-position: center; 
+}
+.ninjaLink:hover{
+  color: var(--colorFour);
+
+}
+.footerNinja{
+  background-color: var(--colorFive);
+  color: var(--colorTwo);
 }
 .felipeAbout {  
-  background: url("./img/profileFelipe.jpeg"); 
+  background: url("../img/profileFelipe.jpeg"); 
   background-size:cover;
   height: 100vh;
   background-position: center; 
 }
-
-
+.felipeLink:hover{
+  color: green;
+}
+.footerFelipe{
+  background-color:var(--colorFive);
+  color: var(--colorTwo);
+}
 .barbaraAbout {
-  background:url("./img/profileBarbara.png");
+  background:url("../img/profileBarbara.png");
   background-size: cover;
   height: 100vh;
   background-position:center;
+}
+.footerBarbara{
+  background-color: var(--colorFive);
+  color:var(--colorTwo);
 }
 
 #owt {
