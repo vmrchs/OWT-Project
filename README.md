@@ -23,3 +23,4 @@ https://developer.mozilla.org
 - Style Embelezamento section
 - Style NavBar
 - Get definitive photos for the website
+- Correct bug resizing when expanding beauty section
