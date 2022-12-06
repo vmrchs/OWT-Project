@@ -22,4 +22,4 @@ https://developer.mozilla.org
 - Fix collapsible portfolio section bugs
 - Style Embelezamento section
 - Style NavBar
-- Get definitive photos fot the website
+- Get definitive photos for the website
