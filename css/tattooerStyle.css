@@ -1,11 +1,11 @@
-
 :root {
-  --colorOne: turquoise
-  --colorTwo:white;
-  --colorThree: #f7ea5c;    
-  --colorFour: #e9ba54;
---colorFive: #ea3137;
+  --color-one: #47E5BC;
+  --color-two: #E6AF2E;
+  --color-three: #F24236;    
+  --color-four: #190B28;
+  --color-five: #685762;
 }
+
 .zkAbout {
   background: url("../img/profileZk.jpeg"); 
   /* background-size:cover; */
@@ -15,11 +15,11 @@
 }
  
  .zkLink:hover{ 
-  color: var(--colorFive);
+  color: var(--color-one);
 }
 .footerZk{
-  background-color:var(--colorFive);
-  color: var(--colorTwo);
+  background-color:var(--color-one);
+  color: var(--color-two);
 
 }
 
@@ -30,12 +30,12 @@
   background-position: center; 
 }
 .ninjaLink:hover{
-  color: var(--colorFour);
+  color: var(--color-two);
 
 }
 .footerNinja{
-  background-color: var(--colorFive);
-  color: var(--colorTwo);
+  background-color: var(--color-two);
+  color: var(--color-three);
 }
 .felipeAbout {  
   background: url("../img/profileFelipe.jpeg"); 
@@ -44,11 +44,11 @@
   background-position: center; 
 }
 .felipeLink:hover{
-  color: green;
+  color: var(--color-three);
 }
 .footerFelipe{
-  background-color:var(--colorFive);
-  color: var(--colorTwo);
+  background-color:var(--color-three);
+  color: var(--color-one);
 }
 .barbaraAbout {
   background:url("../img/profileBarbara.png");
@@ -57,19 +57,19 @@
   background-position:center;
 }
 .footerBarbara{
-  background-color: var(--colorFive);
-  color:var(--colorTwo);
+  background-color: var(--color-one);
+  color: var(--color-two);
 }
 
 #owt {
   opacity:40%;
-  color:var(--colorTwo);
+  color: white;
   font-size: 32vw;
   font-weight: 700;
 }
 
 .tattooer {
-    background: turquoise;
+    background: var(--color-one);
 	  height: auto;   
 }
 .tattooersContainer{
@@ -111,7 +111,7 @@
     #navBar ul{
         margin-left:2rem;
         margin-right:2rem;
-        color:var(--colorTwo);
+        color:var(--color-two);
         display: flex;
         justify-content: space-between;
         list-style:none; 

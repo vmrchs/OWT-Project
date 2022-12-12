@@ -1,9 +1,9 @@
 :root {
-    --colorOne:#53a5a8;
-    --colorTwo:white;
-    --colorThree: #f7ea5c;
-    --colorFour: #e9ba54;
-    --colorFive: #ea3137;
+  --colorOne: #47E5BC;
+  --colorTwo: #E6AF2E;
+  --colorThree: #F24236;    
+  --colorFour: #190B28;
+  --colorFive: #685762;
 }
 
 .mainHeader{

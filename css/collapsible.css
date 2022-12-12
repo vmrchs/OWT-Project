@@ -1,11 +1,10 @@
 :root {
-  --colorOne: turquoise
-  --colorTwo:white;
-  --colorThree: #f7ea5c;    
-  --colorFour: #e9ba54;
---colorFive: #ea3137;
+  --colorOne: #47E5BC;
+  --colorTwo: #E6AF2E;
+  --colorThree: #F24236;    
+  --colorFour: #190B28;
+  --colorFive: #685762;
 }
- 
  /* Style the buttons that are used to open and close the accordion panel */
  .accordion {
     background-color: inherit;
@@ -30,7 +29,7 @@
 
     border: 3px solid white;
     color: white;
-    background-color:var(--colorFive);
+    background-color: inherit;
   }
   
   /* Style the accordion panel. Note: hidden by default */
