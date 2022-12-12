@@ -104,8 +104,23 @@
       font-size: 15px;
     }
     .mainHeader{
-      margin-left: -0.5rem;
+      width: 100vw;
+      /* margin-left: -0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around; */
     }
+
+    .smallDevices {
+      width: 100vw;
+      height: auto;
+      margin-left: -0.5rem;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+
     .buttonMenu{
       display: none;
     }
