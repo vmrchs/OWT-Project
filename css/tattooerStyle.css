@@ -72,7 +72,7 @@
     background: var(--color-one);
 	  height: auto;   
 }
-.tattooersContainer{
+.container{
   display: flex;
   flex-direction:column;
 	text-align:center;
@@ -101,10 +101,9 @@
   justify-content: center;
 }
 
-.beautyContainer{
-  display: flex;
-  flex-direction:column;
-	text-align:center;
+.beauty {
+  background-color: var(--color-two);
+  height: auto;
 }
 
 @media(max-width:550px) {

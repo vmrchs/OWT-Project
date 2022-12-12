@@ -20,37 +20,23 @@
     <script src="./node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
 
     <header class="mainHeader">
-      <nav id="nav" class="mainNav">
-        <ul class="navLinks">
-          <li class="navAbout navItem"><a href="#about">SOBRE NÓS</a></li>
-          <li class="navTattooArtists linkItem">
-            <a href="#tattooers">TATUADORES</a>
-          </li>
-          <li>
-            <a href="#embelezamento">EMBELEZAMENTO</a>
-          </li>
-          <li class="navLocation linkItem">
-            <a href="#location">LOCALIZAÇÃO</a>
-          </li>
-          <li class="navNewsletter linkItem">
-            <a href="#newsletter">NEWSLETTER</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="smallDevices">
-        <div class="buttonContainer">
-          <button id="buttonMenu" class="buttonMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <div class="instaContainer">
-            <a href="https://www.instagram.com/oldwindtattoo/?hl=es">
-              <img src="./img/insta.svg" alt="instagram owt" />
-            </a>
+        <nav class="navbar mainNav" id="nav">
+          <div class="navbar-container container">
+              <input type="checkbox" name="" id="">
+              <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+              </div>
+              <ul class="menu-items navLinks">
+                  <li class="navAbout navItem"><a href="#about">SOBRE NÓS</a></li>
+                  <li class="navTattooArtists linkItem"><a href="#tattooers">TATUDORES</a></li>
+                  <li><a href="#embelezamento">EMBELEZAMENTO</a></li>
+                  <li class="navLocation linkItem"><a href="#location">LOCALIZAÇÃO</a></li>
+                  <li class="navNewsletter linkItem"><a href="#newsletter">NEWSLETTER</a></li>
+              </ul>
           </div>
-      </div>
-      </div>
+      </nav>
     </header>
 
     <main>
@@ -73,7 +59,7 @@
         <div id="portfolioContainer">
           <h1>TATUADORES</h1>
 
-          <div id="zk" class="portfolio">
+          <div id="portfolio" class="portfolio">
            <button class="accordion">ZK</button>
             <div class="panel">
              <section class="tattooer">
@@ -188,12 +174,10 @@
       <section id="newsletter">
         <div class="container">
           <div class="login_bar">
-            <span class="login">seuemail@aqui.com</span>
-            <span class="subscribe_button" onclick="subscribeOnClick()"
-              >assinar</span
-            >
+            <span class="login">seu-email@gmail.com</span>
+            <span class="subscribe_button" onclick="subscribeOnClick()">assinar</span>
             <span class="subscribing"></span>
-            <span class="thanks"> Agora você está cadastrado.</span>
+            <span class="thanks"> Obrigado! Seu cadastro foi realizado</span>
           </div>
         </div>
       </section>

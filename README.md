@@ -12,6 +12,7 @@ https://www.atlastattoo.com/
 * https://app.sendinblue.com/account/register/
 * https://freefrontend.com/css-subscribe-forms/ - SUBSCRIBE FORM TEMPLATE
 * https://www.w3schools.com/howto/howto_js_accordion.asp - Accordion type collapsible
+* https://codepen.io/alvarotrigo/pen/XWejzjR - Hamburger menu
 
 https://devxdev.net
 https://developer.mozilla.org
@@ -24,3 +25,4 @@ https://developer.mozilla.org
 - Style NavBar
 - Get definitive photos for the website
 - Correct bug resizing when expanding beauty section
+- Implement new hamburger menu and media queries (https://codepen.io/alvarotrigo/pen/XWejzjR)
