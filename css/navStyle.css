@@ -34,7 +34,7 @@
   
   .navLinks{
     background-color:rgba(255, 255, 255, 0.629);
-    margin-top: -1%;
+    /*margin-top: -1%;*/
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -52,10 +52,21 @@
   .linkItem:hover::after {
     width: 100%;
   }
+
+  /*.smallDevices{
+    background-color: #E6AF2E;
+    
+  
+  }*/
+
   .buttonContainer{
-    margin-top:10rem;
-    display: flex;
-    background-color: #47E5BC;  
+    padding: 1rem;
+    display: flex; 
+    gap: 2rem; 
+    margin-left:32vw;
+    margin-top: 3rem;
+    background-color: #47e5bb19; 
+    border-radius:10px; 
   }
 
   
@@ -77,7 +88,7 @@
     margin-left:10%;
     margin-bottom: 5px;
     position: relative;
-    background: var(--colorThree);
+    background:white;
     border-radius: 3px;
     transform-origin: 4px 0px;
     transition: all .2s linear;
@@ -117,6 +128,7 @@
       justify-content: space-around; */
     }
 
+    /*
     .smallDevices {
       width: 100vw;
       height: auto;
@@ -125,7 +137,7 @@
       flex-wrap: nowrap;
       align-items: center;
       justify-content: space-around;
-    }
+    }*/
 
     .buttonMenu{
       display: none;
